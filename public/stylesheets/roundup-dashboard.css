@@ -1,0 +1,62 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #111111;
+  overflow: hidden;
+  font-family: sans-serif;
+}
+@font-face {
+  font-family: 'OpenSans-Light';
+  src: url('../resources/fonts/OpenSans-Light.ttf');
+}
+#offscreen {
+  visibility: hidden;
+}
+body {
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+.gmap {
+  width: calc(60% + 50px);
+  height: 100%;
+  float: right;
+}
+.bottom-cover {
+  height: 30px;
+  width: 100%;
+  position: absolute;
+  background: #111111;
+  bottom: 0;
+}
+.fps-counter {
+  z-index: 100;
+  color: #DDDDDD;
+  position: absolute;
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+}
+.left-container {
+  float: left;
+  width: 30%;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+.left-container .line-chart {
+  float: left;
+  width: 100%;
+  margin-top: 40px;
+}
+.left-container .pie-chart {
+  margin-top: 50px;
+}
+.left-container .logo {
+  background-image: url('../resources/logo.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 50px;
+  float: left;
+}

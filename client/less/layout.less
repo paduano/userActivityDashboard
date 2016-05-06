@@ -1,0 +1,67 @@
+@import "theme";
+
+body {
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+.gmap {
+  width: ~"calc(60% + 50px)";
+  //height: ~"calc(100% + 100px)";
+  height: 100%;
+  float: right;
+  //margin-right: -50px;
+  //margin-top: -50px;
+
+}
+
+.bottom-cover {
+  height: 30px;
+  width: 100%;
+  position: absolute;
+  background: @backgroundColor;
+  bottom: 0;
+}
+
+.fps-counter {
+  z-index: 100;
+  color: #DDDDDD;
+  position: absolute;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+}
+
+.left-container {
+  float:left;
+  width: 30%;
+  margin-left: 50px;
+  margin-top: 50px;
+
+  .line-chart {
+    float: left;
+    width: 100%;
+    margin-top: 40px;
+  }
+
+  .pie-chart {
+    margin-top: 50px;
+  }
+
+  .logo {
+
+  background-image: url('../resources/logo.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 50px;
+  float: left;
+
+
+  }
+
+}
+
